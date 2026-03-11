@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: #111214;
+  color: #f4f3ef;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.grid-overlay {
+  background-image: linear-gradient(to right, rgba(244, 243, 239, 0.05) 1px, transparent 1px);
+  background-size: calc(100% / 12) 100%;
+}
